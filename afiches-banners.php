@@ -59,6 +59,8 @@
 				    <li><img src="imagenes/afiches-banners/afiches-banners15.jpg" alt="Afiches/Banners 15" /></li>
 				    <li><img src="imagenes/afiches-banners/afiches-banners16.jpg" alt="Afiches/Banners 16" /></li>
 				    <li><img src="imagenes/afiches-banners/afiches-banners17.jpg" alt="Afiches/Banners 17" /></li>
+				    <li><img src="imagenes/afiches-banners/afiches-banners18.jpg" alt="Afiches/Banners 18" /></li>
+				    <li><img src="imagenes/afiches-banners/afiches-banners19.jpg" alt="Afiches/Banners 19" /></li>
 				  </ul>
 				</div>
 			</section>

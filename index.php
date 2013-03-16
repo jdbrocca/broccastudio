@@ -17,13 +17,13 @@
 						cont=0;
 					}
 				});
-			}, 7000);
+			}, 3000);
 
 			setTimeout(function(){
 				$("#cont1").fadeOut(function(){
 					$("#cont2").fadeIn();
 				})
-			}, 12000);
+			}, 3000);
 		})
 	</script>
 </head>

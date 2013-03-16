@@ -75,6 +75,12 @@
 				    <li><img src="imagenes/ilustraciones/ilustraciones30.jpg" alt="Ilustraciones 30" /></li>
 				    <li><img src="imagenes/ilustraciones/ilustraciones31.jpg" alt="Ilustraciones 31" /></li>
 				    <li><img src="imagenes/ilustraciones/ilustraciones32.jpg" alt="Ilustraciones 32" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones33.jpg" alt="Ilustraciones 33" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones34.jpg" alt="Ilustraciones 34" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones35.jpg" alt="Ilustraciones 35" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones36.jpg" alt="Ilustraciones 36" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones37.jpg" alt="Ilustraciones 37" /></li>
+				    <li><img src="imagenes/ilustraciones/ilustraciones38.jpg" alt="Ilustraciones 38" /></li>
 				  </ul>
 				</div>
 			</section>
