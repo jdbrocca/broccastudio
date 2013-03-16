@@ -1,0 +1,436 @@
+body {
+	background: url("../imagenes/fondo.jpg") fixed;
+  	background-size: cover;
+  	color: #939393;
+  	font-family: Arial;
+  	font-size: 16px;	
+  	height:100%;
+}
+
+header#cabecera img{
+	transition: all 1s ease;
+}
+
+header#cabecera img:hover{
+	transform: rotate(5deg);
+}
+
+/* PRINCIPAL */
+
+#principal {
+	background-color: #e8e8e8;
+  	/*height: 80%;*/
+  	min-height: 600px;
+  	right: 0px;
+  	position: absolute;
+  	top: 10%;
+  	width: 90%;
+}
+
+#izquierda {
+	float: left;
+	padding: 3% 0px 0px 5%;
+	position: relative;
+	width: 20%;
+}
+
+	#navegacion {
+		padding-top: 30px;
+	}
+
+	#navegacion li {
+		list-style: none;
+		line-height: 30px;
+		list-style-image: url("../imagenes/vineta-celeste.png")
+	}
+
+	#navegacion ul li a {
+  		color: #939393;
+  		font-size: 1em;
+  		font-weight: bold;
+  		vertical-align: middle;
+		text-decoration: none;
+	}
+
+	#navegacion ul li a:hover {
+		color: #00aeed;
+	}
+
+	.submenu {
+		display: none;
+		height: auto;
+	}
+
+	.menuSelect{
+		background-color: #63adea;
+		border: 2px solid #a9a9a9;
+		border-radius: 5px;
+		color: #FFFFFF;
+		display: none;
+		padding: 3% 5%;
+		width: 100%;
+	}
+
+#derecha {
+	float: left;
+	/*height: 100%;*/
+	min-height: 600px;
+	position: relative;
+	width: 75%;
+}
+
+	#derecha h1.TituloGaleria{
+		color: #00aeed;
+		font-size: 1.2em;
+		margin-bottom: 0;
+		padding-left: 5%;
+		text-transform: uppercase;
+		text-align: right;
+		width: 63%;
+	}
+
+	#derecha #ladoIzquierdo{
+		float: left;
+		margin-top: 2%;
+		padding: 2% 5%;
+		position: relative;
+		width: 50%;
+	}
+
+		#derecha #ladoIzquierdo #tituloContactenos{
+			color: #FFFFFF;
+			font-size: 2em;
+			position: absolute;
+			/*right: 50%;*/
+			top: 30%;
+			z-index: 9999;
+			/*opacity: 0;*/
+			opacity: 0;
+			left: 50%;
+			text-align: left;			
+		}
+	
+	#derecha #ladoDerecho{
+		float: left;
+		position: relative;
+		width: 40%;
+	}
+
+		#derecha #ladoDerecho #iconosContactenos{
+			margin-top: 50%;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono,
+		#derecha #ladoDerecho #iconosContactenos #correo{
+			float: left;
+			margin-bottom: 10%;
+			position: relative;
+			width: 100%;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .icono,
+		#derecha #ladoDerecho #iconosContactenos #correo .icono{
+			float: left;
+			position: relative;
+			width: 20%;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .icono img,
+		#derecha #ladoDerecho #iconosContactenos #correo .icono img{
+			transition: all 1s linear;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .icono img:hover,
+		#derecha #ladoDerecho #iconosContactenos #correo .icono img:hover{
+			transform: rotate(360deg);
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .textoIcono,
+		#derecha #ladoDerecho #iconosContactenos #correo .textoIcono{
+			color: #000000;
+			float: left;
+			font-size: 1.2em;
+			padding-top: 5%;
+			padding-left: 5%;
+			position: relative;
+			width: 75%;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .textoIcono a,
+		#derecha #ladoDerecho #iconosContactenos #correo .textoIcono a{	
+			color: #525252;
+			text-decoration: none;	
+		}	
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .textoIcono a:hover,
+		#derecha #ladoDerecho #iconosContactenos #telefono .textoIcono a:active,
+		#derecha #ladoDerecho #iconosContactenos #correo .textoIcono a:hover,
+		#derecha #ladoDerecho #iconosContactenos #correo .textoIcono a:active{	
+			color: #00aeed;
+		}		
+
+	#fondos{
+		background: url("../imagenes/fondo1.jpg") no-repeat right #e8e8e8;
+		background-size: auto 100%;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 0;
+	}
+
+	#contenido {
+		background-color: #FFFFFF;
+		border: 2px solid #a9a9a9;
+		box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+		margin: 0.2em 0px 2em 5%;
+		min-height: 55%;
+		padding: 15px 4%;
+		position: relative;
+		text-align: justify;
+		width: 55%;		
+	}
+
+		#cont1{
+			line-height: 40px;
+		}
+
+		#cont2{
+			display: none;
+			line-height: 18px;
+		}
+
+
+		#derecha #ladoIzq{
+			/*float: left;*/
+			/*position: relative;*/
+			background-color: #00aeed;
+			bottom: 0;
+			color: #FFFFFF;
+			height: 0;
+			line-height: 1.5em;
+			opacity: 0;
+			overflow: hidden;
+			padding: 0 5%;
+			position: absolute;
+			top: 0;
+			width: 20%;
+		}
+
+		#derecha #ladoDer{
+			color: #525252;
+			float: left;
+			height: 100%;
+			line-height: 1.5em;
+			margin-left: 30%;
+			opacity: 0;
+			overflow: hidden;
+			padding: 0 5%;
+			position: relative;
+			width: 50%;
+		}	
+
+footer{
+	color: #525252;
+	font-size: 0.9em;
+	padding: 0.5em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#b{
+	display: none;
+}
+
+@media screen and (min-height: 900px) {
+
+	#derecha #ladoIzq{
+		line-height: 2.5em;
+	}
+
+	#derecha #ladoDer{
+		line-height: 2.5em;
+	}	
+}
+
+@media screen and (max-width: 1400px) {
+
+	#contenido {
+		width: 55%;
+	}
+
+	#derecha h1.TituloGaleria{
+		width: 63%;
+	}
+
+} 
+
+@media screen and (max-width: 1200px) {
+
+	#contenido{
+		width: 65%;
+	}
+
+	#derecha h1.TituloGaleria{
+		width: 73%;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#contenido {
+		width: 70%;
+	}
+
+	#derecha h1.TituloGaleria{
+		width: 78%;
+	}
+
+	#principal {
+		right: none;
+		width: 100%;
+	}
+
+	#fondos{
+		left: 40%;
+		width: 60%;
+	}
+
+	#derecha #ladoDerecho{
+		width: 100%;
+	}
+
+	#derecha #ladoDerecho #iconosContactenos{
+		margin: 0;
+	}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono,
+		#derecha #ladoDerecho #iconosContactenos #correo{
+			width: 40%;
+		}	
+
+}
+
+@media screen and (max-width: 800px) {
+
+	#contenido {
+		width: 75%;
+	}
+
+	#derecha h1.TituloGaleria{
+		width: 83%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	
+	body{
+		background: #e8e8e8;
+	}
+
+	#principal {
+		float: left;
+		min-height: auto;
+		height: 100%;
+		padding-bottom: 10%;
+		position: relative;
+		top: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	#izquierda{
+		padding: 7%;
+		width: 86%;
+	}
+
+	#derecha{
+		min-height: 0px;
+		width: 100%;	
+	}
+
+	#contenido {
+		margin: 10% 0px 0px 5%;
+		width: 82%;
+	}
+
+	#derecha h1.TituloGaleria{
+		width: 90%;
+	}
+
+	#fondos {
+		display: none;
+		left: 0;
+		width: 100%;
+	}
+
+	#cabecera{
+		text-align: center;
+	}
+
+	#cabecera a img{
+		width: 50%;
+	}
+
+	#navegacion ul{
+		display: none;
+	}
+
+	.menuSelect{
+		display: block;
+	}
+
+	#derecha #ladoIzquierdo{
+		width: 90%;
+	}	
+
+	#derecha #ladoDerecho{
+		padding: 0 5%;
+		width: 90%;
+	}	
+
+		#derecha #ladoDerecho #iconosContactenos{
+			margin-top: 0;
+		}
+
+		#derecha #ladoDerecho #iconosContactenos #telefono .textoIcono,
+		#derecha #ladoDerecho #iconosContactenos #correo .textoIcono{
+			font-size: 1em;
+		}		
+
+	#derecha #ladoIzq, #derecha #ladoDer{
+		width: 90%;
+		padding-bottom: 10%;
+		position: relative;
+		margin: 0;
+	}
+
+	#derecha #ladoIzquierdo #tituloContactenos{
+		font-size: 1.5em;
+	}
+
+	#derecha h1.TituloGaleria{
+		font-size: 1.3em;
+		text-align: center;
+		width: 95%;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	#a{
+		display: none;
+	}
+
+	#b{
+		clear: both;
+		display: block;
+		margin-top: -2em;		
+		position: relative;
+	}
+
+}
